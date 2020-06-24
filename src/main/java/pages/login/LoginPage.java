@@ -16,6 +16,7 @@ public class LoginPage  {
 
     public void loginAsAdmin() {
         driver.findElement(By.xpath(buttonLoginAsAdmin)).click();
+
     }
 
     public void loginAsUser() {
