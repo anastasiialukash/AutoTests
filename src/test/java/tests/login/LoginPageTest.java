@@ -3,11 +3,11 @@ package tests.login;
 import org.junit.jupiter.api.Test;
 import pages.base.BasePage;
 import pages.login.LoginPage;
-import tests.base.BaseTest;
+//import tests.base.BaseTest;
 
-public class LoginPageTest extends BaseTest {
-    protected BasePage basePage = new BasePage(driver);
-    protected LoginPage loginPage = new LoginPage(driver);
+public class LoginPageTest  {
+    protected BasePage basePage = new BasePage();
+    protected LoginPage loginPage = new LoginPage();
 
     @Test
     public void loginAsAdmin() {
@@ -20,5 +20,7 @@ public class LoginPageTest extends BaseTest {
         basePage.goToUrl("http://javatop.herokuapp.com/login");
         loginPage.loginAsUser();
     }
+
+
 
 }
