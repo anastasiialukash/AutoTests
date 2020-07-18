@@ -3,9 +3,10 @@ package tests.login;
 import org.junit.jupiter.api.Test;
 import pages.base.BasePage;
 import pages.login.LoginPage;
-//import tests.base.BaseTest;
+import tests.base.BaseTest;
 
-public class LoginPageTest  {
+
+public class LoginPageTest extends BaseTest {
     protected BasePage basePage = new BasePage();
     protected LoginPage loginPage = new LoginPage();
 
