@@ -12,7 +12,7 @@ public class LoginPageTest extends BaseTest {
     protected String LINK = "http://javatop.herokuapp.com/login";
     protected String NAME = "TestName";
     protected String EMAIL = "test@gmail.com";
-    protected String PASSWORD = "frRtg909_Ds";
+    protected String PASSWORD = "12345";
     protected String LIMIT = "2000";
 
     @Test
