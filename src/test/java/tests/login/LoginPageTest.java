@@ -18,6 +18,7 @@ public class LoginPageTest extends BaseTest {
     @Test
     public void loginAsAdmin() {
         System.out.println("Login");
+        System.out.println("Login");
         basePage.goToUrl(LINK);
         loginPage.loginAsAdmin();
         loginPage.logout();
