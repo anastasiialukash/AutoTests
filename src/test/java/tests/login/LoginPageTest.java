@@ -13,7 +13,7 @@ public class LoginPageTest extends BaseTest {
     protected String NAME = "TestName";
     protected String EMAIL = "test@gmail.com";
     protected String PASSWORD = "12345";
-    protected String LIMIT = "2000";
+    protected String LIMIT = "2500";
 
     @Test
     public void loginAsAdmin() {
