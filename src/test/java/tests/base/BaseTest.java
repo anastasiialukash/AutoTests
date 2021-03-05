@@ -31,13 +31,13 @@ public class BaseTest {
         File allureResults = new File("allure-results");
         if(allureResults.isDirectory()) {
             for(File item : Objects.requireNonNull(allureResults.listFiles())) {
-                item.delete();
+                item.deleteOnExit();
             }
         }
         if(Config.CLEAR_REPORTS_DIR) {
             File testsScreenshot = new File("build/reports/tests");
             for(File item : Objects.requireNonNull(testsScreenshot.listFiles())) {
-                item.delete();
+                item.deleteOnExit();
             }
         }
     }
